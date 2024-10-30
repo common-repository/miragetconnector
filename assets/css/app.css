@@ -1,0 +1,431 @@
+
+/*************new css************/
+#postbox-container-1{
+    width:100% !important;
+   
+}
+#dashboard_quick_press{
+    width:100%;
+    margin-right: 15px;
+    
+}
+#postbox-container-2{
+    width:100% !important;
+}
+#settings-2{
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top:15px;
+}
+#general-settings-title {
+ font-size: 1.3em;
+ margin-left: 7px;
+ font-weight:600 !important;
+ cursor: default !important;
+ 
+}
+#specific-settings-title{
+    font-size: 1.2em;
+    font-weight:600;
+    cursor: default !important;
+    
+}
+.miraget-logo-img{
+    width:80px;
+    height: 16px;
+    position: relative;
+    top:2px;
+}
+.inside form{
+    font-size: 1.1em;
+    
+}
+#quick-press label,
+span.prompt,
+span.mcrmtitle{
+    
+    font-weight: 500;
+    margin-bottom: 8px;
+    width:130px !important;
+}
+.miraget-record-content{ 
+    font-size: 0.9em;
+}
+
+
+
+/****************************/
+.miraget-info label{
+    background: #f1f1f1;
+    cursor: pointer !important;
+    height: 18px;
+    top: 2px;
+    left: 2px;
+    line-height: 10px;
+    color: #4b4b4b !important ;
+    width:105px !important;
+    
+}
+.miraget-info input{
+     margin-left: 168px !important;
+     padding-left:10px !important;
+     font-size: 1em !important;
+     width:58% !important;
+     
+}
+#plugin-name-input{
+    margin-left: 10px !important;
+}
+.miraget-submit{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.inside,.textarea-wrap{
+    position: relative;
+}
+.wpbody-content{
+    position: relative;
+}
+.miragetApiCalls{
+    position: absolute;
+    right: 22px;
+    top: 24px;
+}
+.miraget-apiStatus.sec {
+    border-top: 2px solid #46b450;
+    color: #00880c;
+}
+.miraget-apiStatus.err {
+    border-top: 2px solid #e90a0a;
+    color: #ffffff;
+    background: #ff3535 ;
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    background-color: #f00;
+}
+@-webkit-keyframes animation {
+    0%     {background-color:red;}
+    50.0%  {background-color:#ff6666;}
+    100.0%  {background-color:red;}
+}
+
+@keyframes animation {
+    0%     {background-color:red;}
+    50.0%  {background-color:#ff6666;}
+    100.0%  {background-color:red;}
+}
+.miraget-apiStatus {
+    background: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    float: right;
+    padding: 4px 15px;
+    display: block;
+    font-weight: bold;
+}
+.miragerErrorPost{
+    background: antiquewhite;
+    width: 80%;
+    margin: 15px auto;
+    line-height: 26px;
+    padding: 0px 14px;
+    border-radius: 3px;
+    color: #c01212;
+    font-size: 16px;
+    border: 1px solid #c01212;
+}
+
+
+.no-e-s{
+    padding: 11px 14px;
+    line-height: 9px;
+    margin: 0;
+    background: #f6fcf0;
+    display: block !important;
+    border: 1px solid #d7ffb9;
+}
+.listOptions{
+    padding: 8px 1px;
+    text-align: center;
+}
+.m-sisforce div label{
+    width: 92px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.crmBox , .selectOPtionBox {
+    border: 1px solid #f1f1f1;
+    overflow: hidden;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+}
+.crmBox .mcrmtitle , .selectOPtionBox .mcrmtitle{
+    background: #f1f1f1;
+    padding: 4px 12px;
+    width: 97px;
+    display: block;
+    float: left;
+    text-align: right;
+}
+.mcrmtitle2{
+    line-height: 26px;
+    font-size: .9rem;
+    margin-left: 9px;
+}
+.selectOPtionBox{
+    margin-top: 10px;
+    border: 0;
+    box-shadow: unset;
+}
+.selectOPtionBox .chck{
+    padding: 9px;
+    line-height: 20px;
+    display: inline-block;
+    width:114px !important;
+}
+.selectOPtionBox .chck input{
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+}
+.selectOPtionBox .mcrmtitle{
+    border: 1px solid #e8e8e8;
+    text-align: center;
+}
+.prompt {
+    display: inline-block ;
+    text-align: center !important;
+  
+}
+.zohoLink{
+    position: relative;
+}
+.zohoLink a {
+    position: absolute;
+    top: -26px;
+    right: 0;
+}
+.nothing{
+    padding: 14px ;
+}
+
+.noInfotarget{
+
+    color: #ffffff;
+    background: #ff3535 ;
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    background-color: #f00;
+    padding: 5px ;
+    
+}
+
+.apiV2Inputs label{ width: 93px; }
+.apiV1Inputs label{ width: 93px; }
+/*styling zoho api v2 input
+*/
+.zoho-apiv2{
+    width:96px;
+    height: 28px;;
+}
+/*add styling for emailing option*/
+.email-container input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.email-container label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.email-container input[type=submit] {
+    background-color: #0073aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.email-container input[type=submit]:hover {
+    background-color: #0073aa;
+}
+
+.email-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, .email-container input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/**style for data source select box**/
+.mc-select-opt  {
+ width:350px !important;
+ height: 40px !important;
+ margin-left:10px;
+}
+#tg-system{
+    height: 25px !important;
+    padding-top:10px;
+}
+
+/*adding infos for some fields option*/
+.miraget-connect-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    left:1px;
+    top:5px;
+}
+.miraget-icon-info-img{
+    width:18px;
+    height: 18px;
+}
+/* Tooltip text */
+.miraget-connect-tooltip .miraget-connect-tooltiptext {
+    visibility: hidden;
+    width: 380px;
+    font-size: 0.8em;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    
+    position: absolute;
+    top: -10px;
+    left: 109%; 
+    z-index: 1;
+}
+
+
+.miraget-connect-tooltip:hover .miraget-connect-tooltiptext {
+    visibility: visible;
+}
+/*end adding infos for  fields option*/
+/* auto complete text css */
+.connector-autocomplete{
+    display: inline-block;
+}
+.connector-autocomplete input {
+    padding-left:10px;
+    width:250px;
+}
+.autocomplete-items {
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 999;
+    
+   
+  }
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  .autocomplete-items div:hover {
+    
+    background-color: #e9e9e9; 
+  }
+  
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+  }
+  .connector-link-contact{
+      padding-top:20px;
+      text-align: center;
+      font-size:1.3em;
+  }
+  .connector-link-contact a{
+      margin-top:10px;
+      font-size:1.5em;
+  }
+  .mr-checkbox-span{
+      margin: 0 5px 0 5px;
+  }
+  #tables-found{
+      padding-left:165px;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .purge-history{
+      margin-bottom: 30px;
+      margin-left:10px;
+  }
+  #field-for-tables{
+    
+      margin: 20px 0 0 165px;
+      display:flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  .elm-to-add{
+    padding:4px;
+    margin-bottom: 5px;
+    border-radius: 5%;
+    background: rgb(133, 235, 144);
+  }
+  .elm-to-add input{
+      background:rgb(236, 61, 61);
+  }
+  #btn-add{
+      width:60px;
+      margin-top:5px;
+      
+  }
+ 
